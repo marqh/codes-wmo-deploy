@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Contributing to the WMO Codes Registry</h1>
+        <h2>Contributing to the WMO Codes Registry</h2>
         <a href="http://www.wmo.int/pages/index_en.html">
             <img class="float-right"  src="$uiroot/img/wmo-logo-official-blue-on-white-trunc.png" alt="World Meteorological Organization" name="logoWMO" width="169" height="144" border="5"></img>
         </a>
@@ -14,9 +14,9 @@
     <div class="container">
       <div class="row">
 
-      <p> <a href="$uiroot/about/typofixes">How to fix a typographical error.</a> </p>
-      <p> <a href="$uiroot/about/translation">How to add a linguistic translation.</a> </p>
-      <p> <a href="$uiroot/about/broader">How to add a semantic link between concepts.</a> </p>
+      <p> <a href="$uiroot/about/typofixes">How to fix a typographical error</a> </p>
+      <p> <a href="$uiroot/about/translation">How to add a language translation for a code definition</a> </p>
+      <p> <a href="$uiroot/about/broader">How to add a semantic link between concepts</a> </p>
 
       </div>
     ## container will be closed by footer
