@@ -1,0 +1,49 @@
+#parse("header.vm")
+#set($nav="about")
+#parse("navbar.vm")
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Searching within specific WMO code tables</h2>
+        <a href="http://www.wmo.int/pages/index_en.html">
+            <img class="float-right"  src="$uiroot/img/wmo-logo-official-blue-on-white-trunc.png" alt="World Meteorological Organization" name="logoWMO" width="16 9" height="144" border="5"></img>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+
+<p>
+If your search returns too many results, you can narrow it down.  You will need to know the area of the WMO code tables you are interested in.
+</p>
+
+<p>
+For example, you can <a href="$uiroot/text-search?query=velocity">search for velocity</a> using the search field at the top of the page.
+</p>
+
+<p>
+If your interest is in radar observations data sets, you will know that the BUFR file format specification uses 'table b' to record the codes for defining phenomena and has a specific table for radar.
+</p>
+
+<p>The general search for <a href="$uiroot/text-search?query=BUFR+table+B">BUFR table B</a> returns a number of results, including one labelled 'BUFR4 table B'.</p>
+
+<p>
+Select the BUFR4 table B entry, which is marked as a register with the folder icon.
+</p>
+
+<p>
+This register has its own search box, under the 'Contents' header.  This will only search within the names of the entries in this register.  You can use this to filter the view, for example by typing 'radar' in the search field, the view is limited to only showing the BUFR/CREX Radar data link.
+</p>
+
+<p>
+Select this link, then enter 'velocity' in the 'Contents' search box.  This returns matching code table entries from within the BUFR/CREX Radar data register.
+</p>
+
+      </div>
+    ## container will be closed by footer
+
+
+#parse("footer.vm")
+

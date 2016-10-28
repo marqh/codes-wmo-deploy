@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h2>Making use of the WMO Codes Registry</h2>
+        <h2>Making use of the WMO codes registry</h2>
         <a href="http://www.wmo.int/pages/index_en.html">
             <img class="float-right"  src="$uiroot/img/wmo-logo-official-blue-on-white-trunc.png" alt="World Meteorological Organization" name="logoWMO" width="169" height="144" border="5"></img>
         </a>
@@ -13,6 +13,7 @@
 
     <div class="container">
       <div class="row">
+      <p> <a href="$uiroot/about/findingentries">Searching within specific WMO code tables</a> </p>
 
 
       </div>
